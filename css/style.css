@@ -2391,6 +2391,9 @@ p + .list-marked {
 .list-custom {
 	display: inline-block;
 }
+.text-spec {
+	width:470px;
+}
 
 @media (min-width: 576px) {
 	.list-custom {
@@ -2420,6 +2423,11 @@ p + .list-marked {
 @media (min-width: 1200px) {
 	.list-custom {
 		columns: 3;
+	}
+}
+@media (max-width:410px) {
+	.text-spec {
+		width:370px;
 	}
 }
 
