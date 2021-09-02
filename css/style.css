@@ -2435,6 +2435,10 @@ p + .list-custom {
 		display: inline-block;
 		margin-left: 20px;
 	}
+	.link-phone-spec {
+		margin-left:40px;
+	}
+
 }
 
 @media (min-width: 992px) {
@@ -5913,6 +5917,15 @@ textarea.textarea-lg {
 
 .post-minimal-2 {
 	max-width: 220px;
+}
+.tab-pane {
+	text-align: center;
+}
+@media (max-width:550px) {
+	.post-minimal-2 {
+	display:flex;
+	justify-content:center
+	}
 }
 
 .post-minimal-2-title a, .post-minimal-2-title a:focus, .post-minimal-2-title a:active {
@@ -17244,7 +17257,6 @@ html.rd-navbar-fixed-linked .page {
 	font-size: 0;
 	line-height: 0;
 	font-family: "Montserrat", sans-serif, Arial, sans-serif;
-	text-transform: uppercase;
 	max-width: 100%;
 	color: #151515;
 	flex: 0 0 auto;
@@ -21211,7 +21223,6 @@ h1 + .tabs-line {
 	visibility: visible;
 	transform: translateY(0%);
 	transition: transform 0.3s ease, opacity 0.3s ease;
-	width:400px;
 }
 
 .owl-dot.active::before {
