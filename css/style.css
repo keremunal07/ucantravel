@@ -2406,6 +2406,11 @@ p + .list-marked {
     font-size: 28px;
     z-index: 100;
   }
+  @media (max-width:450px) {
+	  .footer-whatsappSupport {
+		  left:20px;
+	  }
+  }
   .footer-whatsappSupport:hover {
 	text-decoration: none;
   }
