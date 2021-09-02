@@ -2394,6 +2394,24 @@ p + .list-marked {
 .text-spec {
 	width:470px;
 }
+.footer-whatsappSupport {
+    position: fixed;
+    left: 30px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #25d366;
+    font-size: 28px;
+    z-index: 100;
+  }
+  .footer-whatsappSupport:hover {
+	text-decoration: none;
+  }
+  .wp-icon {
+	  font-size:40px;
+  }
 
 @media (min-width: 576px) {
 	.list-custom {
