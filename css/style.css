@@ -23871,6 +23871,7 @@ disabled look for disabled choices in the results dropdown
 .product-item {
 	box-shadow:0 0 23px rgba(10, 10, 10, 0.08);
 	border-radius: 3px;
+	padding-bottom:20px;
 }
 
 .product-stepper .stepper {
