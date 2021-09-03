@@ -24796,3 +24796,19 @@ img.mfp-img {
 	text-decoration: none;
 	cursor: pointer;
   }
+
+.country-code {
+	position:relative;
+	width:120px;
+	margin:0;
+	padding:0;
+	padding-left:10px;
+}
+#contact-phone-2 {
+	width:100%;
+}
+@media (max-width:520px)  {
+	#contact-phone-2 {
+		width:100%
+	}
+}
